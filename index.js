@@ -13,7 +13,9 @@ module.exports = function(inputString) {
                 return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
             }
         );
-    } else {
+    } else if ( typeof inputString === 'number') {
+        return 'Incompatible input type';
+    }else {
         return null;
     }
 };
