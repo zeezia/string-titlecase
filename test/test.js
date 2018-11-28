@@ -16,7 +16,7 @@ describe('#titlecase', function() {
         var result = titlecase(testString);
         expect(result).to.equal(expectedOutput);
     });
-    it('should return null for non-string input values', function() {
+    it('should return appropriate message for number type input values', function() {
         var testString = 1234;
         var expectedOutput = 'Incompatible input type';
         var result = titlecase(testString);
