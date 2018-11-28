@@ -10,6 +10,12 @@ describe('#titlecase', function() {
         var result = titlecase(testString);
         expect(result).to.equal(expectedOutput);
     });
+    it('should convert to titlecase properly with alpha numeric string values', function() {
+        var testString = 'THIs is my 2Nd attempt at this';
+        var expectedOutput = 'This Is My 2nd Attempt At This';
+        var result = titlecase(testString);
+        expect(result).to.equal(expectedOutput);
+    });
     it('should return null for non-string input values', function() {
         var testString = 1234;
         var expectedOutput = null;
