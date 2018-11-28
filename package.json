@@ -1,5 +1,5 @@
 {
-  "name": "string-title-case",
+  "name": "string-titlecase-converter",
   "version": "0.1.0",
   "description": "Test module to achieve title case conversions for string values",
   "main": "index.js",

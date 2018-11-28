@@ -5,11 +5,11 @@ A minimal library that converts strings to title case
 
 ## Installation
 
-  `npm install string-title-case`
+  `npm install string-titlecase-converter`
 
 ## Usage
 
-    var titlecase = require('string-title-case');
+    var titlecase = require('string-titlecase-converter');
 
     var formattedNum = titlecase('shouLd converT to TITle CasE');
   
