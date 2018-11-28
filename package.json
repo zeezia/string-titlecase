@@ -1,5 +1,5 @@
 {
-  "name": "@zeezia/string-titlecase",
+  "name": "string-title-case",
   "version": "0.1.0",
   "description": "Test module to achieve title case conversions for string values",
   "main": "index.js",
