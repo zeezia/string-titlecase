@@ -18,7 +18,7 @@ describe('#titlecase', function() {
     });
     it('should return null for non-string input values', function() {
         var testString = 1234;
-        var expectedOutput = null;
+        var expectedOutput = 'Incompatible input type';
         var result = titlecase(testString);
         expect(result).to.equal(expectedOutput);
     });
