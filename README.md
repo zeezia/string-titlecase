@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zeezia/string-titlecase.svg?branch=master)](https://travis-ci.org/zeezia/string-titlecase) [![Coverage Status](https://coveralls.io/repos/github/zeezia/string-titlecase/badge.svg?branch=master)](https://coveralls.io/github/zeezia/string-titlecase?branch=master)
+
 String Title Case
 =========
 
