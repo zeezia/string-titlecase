@@ -13,10 +13,10 @@ A minimal library that converts strings to title case
 
     var titlecase = require('string-titlecase-converter');
 
-    var formattedNum = titlecase('shouLd converT to TITle CasE');
+    var output = titlecase('shouLd converT to TITle CasE');
   
   
-  Output should be `Should Convert To Title Case`
+  `output` should be `Should Convert To Title Case`
 
 
 ## Tests
